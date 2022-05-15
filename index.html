@@ -10,7 +10,7 @@
             for cloud hosting company called Fylo">
     <!--=============== FAVICON ===============-->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
-    <title>Fylo</title>
+    <title>Fylo | Landing Page</title>
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./style/style.css">
@@ -28,15 +28,15 @@
             <div class="nav_menu">
                 <ul class="nav_list">
                     <li class="nav_item">
-                        <a href="#home" class="nav_link active-link">Features</a>
+                        <a href="#services" class="nav_link active-link">Features</a>
                     </li>
                 
                     <li class="nav_item">
-                        <a href="#about" class="nav_link">Team</a>
+                        <a href="#productive" class="nav_link">Team</a>
                     </li>
                 
                     <li class="nav_item">
-                        <a href="#skills" class="nav_link">Sign In</a>
+                        <a href="#signin" class="nav_link">Sign In</a>
                     </li>
                 </ul>
             </div>
@@ -56,12 +56,13 @@
                             you need, share and collaborate with friends family, and co-workers.</p>
                         <button class="intro-button">Get Started</button>
                     </div>
+                    <!-- <img src="./assets/img/bg-curvy-mobile.svg" alt="curves" class="curvy-mobile"> -->
                 </div>
             </div>
         </section>
 
         <!--=============== SERVICES SECTION ===============-->
-        <section class="services section">
+        <section class="services section" id="services">
             <div class="services-container container">
                 <div class="box-container">
 
@@ -105,7 +106,7 @@
         </section>
 
         <!--=============== PRODUCTIVE SECTION ===============-->
-        <section class="productive section">
+        <section class="productive section" id="productive">
             <div class="productive-container container">
                 <img src="./assets/img/illustration-stay-productive.png" alt="stay productive illustration">
                 <div class="productive-info">
@@ -127,7 +128,7 @@
 
         <!--=============== TESTIMONIAL SECTION ===============-->
         <section class="testimonial section">
-            <div class="testimonial-container contanier">
+            <div class="testimonial-container container">
                 <img src="./assets/img/bg-quotes.png" alt="quotes" class="testimonial-bg-quotes">
                 <!--=============== TESTIMONIAL 1 ===============-->
                 <div class="testimonial_card swiper-slide">
@@ -183,17 +184,18 @@
         </section>
 
         <!--=============== FORM SECTION ===============-->
-        <section class="form section">
-            <div class="form-container contanier">
+        <section class="form section" id="signin">
+            <div class="form-container">
                 <h2 class="form-title">Get early access today</h2>
                 <p class="form-description">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
                     questions, our support team would be happy to help you.
                 </p>
 
                 <div class="contact_content">
-                    <form action="mailto:fylosoftware@gmail.com" class="contact_form">
+                    <form action="#" class="contact_form" id="form">
                         <div class="contact_form_div">
-                            <input type="email" placeholder="email@example.com" class="form_contact_input" required>
+                            <input type="text" name="email" placeholder="email@example.com" class="form_contact_input" id="email" autocomplete="off" onkeydown="validation()">
+                            <span id="text"></span>
                         </div>
                         <input type="submit" value="Get Started For Free" class="submit-button">
                     </form>
