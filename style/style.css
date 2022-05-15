@@ -343,6 +343,7 @@ h2 {
     padding: 2rem 1.5rem;
     border-radius: 0.5rem;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .form-description {
@@ -353,17 +354,23 @@ h2 {
 .submit-button  {
     width: 17rem;
     height: 3rem;
-    font-family: var(--body-font-a);
-    font-weight: var(--font-bold);
-    color: var(--white);
-    border-radius: 5rem;
-    font-size: 1rem;
+    border-radius: 2rem;
     border: none;
     margin-bottom: 1.3rem;
+    padding: 1rem;
     box-shadow: 0 4px 4px hsla(0, 0%, 4%, .3);
+    font-family: var(--body-font-a);
+}
+
+.form_contact_input {
+    font-weight: var(--font-regular);
+    font-size: var(--font-normal);
 }
 
 .submit-button {
+    font-weight: var(--font-bold);
+    font-size: 1rem;
+    color: var(--white);
     background-image: linear-gradient(225deg, var(--blue) 0%, var(--cyan) 100%);
 }
 
@@ -377,7 +384,7 @@ h2 {
 }
 
 .footer_container {
-    padding: 2rem 0 6rem;
+    padding: 8rem 0 1rem;
 }
 
 .footer_logo {
@@ -389,21 +396,7 @@ h2 {
 .footer-contact,
 .footer-social {
     margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
-.footer-about-link,
-.footer-contact-link,
-.footer_social_link {
-    color: var(--white);
-    font-family: var(--body-font-b);
-}
-
-.footer-about-link:hover,
-.footer-contact-link:hover,
-.footer_social_link:hover {
-    font-weight: var(--font-bold);
-    cursor: pointer;
+    margin-bottom: 4rem;
 }
 
 .footer-about,
@@ -413,12 +406,56 @@ h2 {
     gap: 1rem;
 }
 
+.footer-box-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.footer-box-icon-gps {
+    width: 10%;
+    height: 10%;
+}
+
+.footer-box-description {
+    font-size: var(--font-normal);
+}
+
 .footer-social {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
+.footer-social li{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    text-align: center;
+}
+
+.footer-about-link,
+.footer-contact-link {
+    color: var(--white);
+    font-family: var(--body-font-b);
+}
+
+.footer-about-link:hover,
+.footer-contact-link:hover {
+    font-weight: var(--font-bold);
+    cursor: pointer;
+}
+
+.footer_social_link {
+    filter: invert(100%) sepia(32%) saturate(475%) hue-rotate(273deg) brightness(122%) contrast(100%);
+}
+
+.footer_social_link:hover {
+    filter: invert(83%) sepia(22%) saturate(889%) hue-rotate(119deg) brightness(96%) contrast(88%);
+}
 
 
 /*=============== SCROLL BAR ===============*/
