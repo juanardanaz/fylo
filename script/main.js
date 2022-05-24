@@ -38,3 +38,21 @@ function validation() {
         text.style.color = '#00ff00'
     }
 }
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true,
+});
+
+sr.reveal(`.intro-info`);
+sr.reveal(`.box-container`, {delay: 400});
+sr.reveal(`.productive-illus`, {delay: 400});
+sr.reveal(`.productive-info`, {delay: 400, origin: 'bottom'});
+sr.reveal(`.testimonial_card, .testimonial-bg-quotes`, {delay: 400, origin: 'bottom'});
+sr.reveal(`.form-container`, {delay: 400});
+sr.reveal(`.footer_logo`, {delay: 600});
+sr.reveal(`.footer-info-container`, {delay: 600, origin: 'bottom'});
