@@ -203,7 +203,7 @@ img {
 
 .intro-button {
     width: 15rem;
-    height: 3rem;
+    height: 3.5rem;
     font-family: var(--body-font-a);
     font-weight: var(--font-bold);
     background-image: linear-gradient(225deg, var(--blue) 0%, var(--cyan) 100%);
@@ -930,11 +930,11 @@ h2 {
 
     /*=============== HEADER - NAV ===============*/
     .header {
-        height: 135px;
+        height: 150px;
     }
 
     .nav {
-        height: calc(3.5rem + 4rem);
+        height: calc(4.5rem + 4rem);
         gap: 50rem;
     }
 
@@ -959,7 +959,7 @@ h2 {
     }
 
     .illus-intro {
-        max-width: 40%;
+        max-width: 50%;
         height: auto;
         margin-bottom: 1rem;
     }
@@ -1083,8 +1083,9 @@ h2 {
     /*=============== FOOTER ===============*/
     .footer_logo {
         max-width: 15%;
-        margin-left: 8.5rem;
+        /* margin-left: 8.5rem; */
         margin-bottom: 0.5rem;
+        transform: translateX(4rem);
     }
 
     .footer-info-container {
