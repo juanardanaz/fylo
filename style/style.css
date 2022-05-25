@@ -191,13 +191,13 @@ img {
     font-size: 1.5rem;
     line-height: 2.3rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .intro-description {
     font-family: var(--body-font-b);
     font-size: var(--font-normal);
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     line-height: 1.5rem;
 }
 
@@ -365,6 +365,7 @@ h2 {
 
 .form-description {
     margin-bottom: 2rem;
+    font-size: 15px;
 }
 
 .contact_form {
@@ -821,13 +822,13 @@ h2 {
     }
 
     .intro-title {
-        max-width: 60%;
+        max-width: 32rem;
         margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2.5rem;
     }
 
     .intro-description {
-        max-width: 53%;
+        max-width: 30rem;
     }
 
     /*=============== SERVICES SECTION ===============*/
@@ -929,11 +930,11 @@ h2 {
 
     /*=============== HEADER - NAV ===============*/
     .header {
-        height: 120px;
+        height: 135px;
     }
 
     .nav {
-        height: calc(3.5rem + 3rem);
+        height: calc(3.5rem + 4rem);
         gap: 50rem;
     }
 
@@ -971,11 +972,11 @@ h2 {
     }
 
     .intro-title {
-        max-width: 40%;
+        max-width: 38rem;
     }
     
     .intro-description {
-        max-width: 27%;
+        max-width: 32rem;
     }
 
     /*=============== SERVICES SECTION ===============*/
@@ -996,6 +997,7 @@ h2 {
 
     .service-description {
         max-width: 50%;
+        /* max-width: 22rem; */
     }
 
     /*=============== PRODUCTIVE SECTION ===============*/
@@ -1004,7 +1006,7 @@ h2 {
         flex-direction: row;
         justify-content: center;
         gap: 5rem;
-        margin-left: 15rem;
+        /* margin-left: 5rem; */
     }
 
     .productive-illus {
@@ -1013,12 +1015,12 @@ h2 {
 
     .productive-title {
         font-size: 2.2rem;
-        max-width: 50%;
+        max-width: 27rem;
         text-align: left;
     }
     
     .productive-description {
-        max-width: 62%;
+        max-width: 33rem;
     }
 
     /*=============== TESTIMONIAL SECTION ===============*/
@@ -1033,17 +1035,17 @@ h2 {
         width: 50px;
         position: relative;
         top: 1.6rem;
-        left: 24rem;
+        left: 12rem;
         z-index: -1;
     }
 
     .testimonial_card {
-        max-width: 18%;
+        max-width: 21rem;
     }
 
     /*=============== FORM SECTION ===============*/
     .form-container {
-        max-width: 58%;
+        max-width: 58rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1054,7 +1056,7 @@ h2 {
     }
 
     .form-description {
-        max-width: 78%;
+        max-width: 45rem;
     }
 
     .contact_form {

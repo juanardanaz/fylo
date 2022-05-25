@@ -48,7 +48,7 @@ const sr = ScrollReveal({
     // reset: true,
 });
 
-sr.reveal(`.intro-info`);
+// sr.reveal(`.intro-info`);
 // sr.reveal(`.box-container`, {delay: 400});
 // sr.reveal(`.productive-illus`, {delay: 400});
 // sr.reveal(`.productive-info`, {delay: 400, origin: 'bottom'});
