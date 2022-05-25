@@ -202,7 +202,7 @@ img {
 }
 
 .intro-button {
-    width: 15rem;
+    width: 17rem;
     height: 3.5rem;
     font-family: var(--body-font-a);
     font-weight: var(--font-bold);
@@ -925,7 +925,7 @@ h2 {
     }
 
     .section {
-        padding: 6.5rem 0 1rem;
+        padding: 8.5rem 0 1rem;
     }
 
     /*=============== HEADER - NAV ===============*/
@@ -961,7 +961,7 @@ h2 {
     .illus-intro {
         max-width: 50%;
         height: auto;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .intro-text {
@@ -1006,7 +1006,6 @@ h2 {
         flex-direction: row;
         justify-content: center;
         gap: 5rem;
-        /* margin-left: 5rem; */
     }
 
     .productive-illus {
@@ -1083,7 +1082,6 @@ h2 {
     /*=============== FOOTER ===============*/
     .footer_logo {
         max-width: 15%;
-        /* margin-left: 8.5rem; */
         margin-bottom: 0.5rem;
         transform: translateX(4rem);
     }
